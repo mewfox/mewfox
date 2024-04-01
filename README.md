@@ -26,6 +26,33 @@ Hi, I'm Mona. You might recognize me as GitHub's mascot.
 |     2|               |
 |     3|               |
 
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+
+代码
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+添加代码标识符
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 
 </details>
 
